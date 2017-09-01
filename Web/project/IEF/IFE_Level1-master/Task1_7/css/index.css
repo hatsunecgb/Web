@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+/* 开始-top部分 */
+.top {
+    width: 1280px;
+    height: 56px;
+    margin: 0 auto;
+}
+.top .top-left {
+    float: left;
+    padding-left: 59px;
+}
+.top .top-left img {
+    vertical-align:middle;  /* 设置image图片垂直居中 ,imimage为行内块元素*/
+}
+.top .top-left h1 {
+    display: inline-block;
+    padding-left: 6px;
+    line-height: 56px;
+    font-size: 20px;
+}
+.top .top-right {
+    float:right;
+}
+.top .top-right ul {
+    padding-right: 50px;
+}
+.top .top-right ul li {
+    padding: 0 18px;
+    float: left;
+}
+.top .top-right ul li img {
+    vertical-align: middle;
+}
+.top .top-right ul li a {
+    font-size: 14px;
+    line-height: 56px;
+    color: #787B83;
+    text-decoration: none;
+    text-align: center;
+}
+.top .top-right ul li:hover {
+    border-bottom: 3px solid #E7504D;
+}
+.top .top-right ul li a:hover {
+    color: #E7504D;
+}
+/* 结束-top部分  */
+/* 开始-main-banner部分 */
+.main .main-banner {
+    width: 1280px;
+    height: 690px;
+    background: url('../image/banner-bg.png');
+    margin: 0 auto;
+    
+}
+.main .main-banner h3 {
+    font-size: 45px;
+    color: #FFF;
+    padding: 228px 0 0 126px;
+}
+.main .main-banner p {
+    width: 298px;
+    font-size: 21px;
+    color: #FFF;
+    line-height: 34px;
+    padding: 10px 0 0 126px;
+}
+.main .main-banner a {
+    display: inline-block;
+    width: 331px;
+    height: 65px;
+    background: #E74F4D;
+    text-decoration: none;
+    font-size: 26px;
+    color: #FFF;
+    text-align: center;
+    line-height: 65px;
+    margin: 64px 0 0 126px;
+}
+/* 开始-main-banner-text部分 */
+.main .main-banner-text {
+    width: 1280px;
+    height: 250px;
+    margin: 0 auto;
+    
+}
+.main .main-banner-text .main-banner-text-p {
+    width: 320px;
+    float: left;
+}
+/* .main .main-banner-text .main-banner-text-p div {
+    height: 133px;
+} */
+.main .main-banner-text .main-banner-text-p div img {
+    display: block;
+    margin: 45px auto;
+}
+.main .main-banner-text p {
+    width: 156px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* 结束-main-banner-text部分 */
+
+/* 结束-main-banner部分 */
+/* 开始-main-about部分 */
+.main-about {
+    width: 1280px;
+    height: 360px;
+    background: #ECECEC;
+    margin: 0 auto;
+}
+.main-about img {
+    margin: 88px 0 0 592px;
+}
+.main-about h3 {
+    font-size: 48px;
+    counter-reset: #909090;
+    text-align: center;
+    margin-top: 50px;
+}
+/* 开始-main-search部分 */
+.main-search {
+    width: 1280px;
+    height: 340px;
+    margin: 0 auto;
+    background: url("../image/form-bg.png")
+}
+.main-search h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 52px;
+    color: #FFF;
+}
+.main-search .hr {
+    width: 31px;
+    border-bottom: 2px solid #FFF;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.main-search p {
+    font-size: 12px;
+    color: #FFF;
+    margin-top: 20px;
+    text-align: center;
+}
+.main-search .main-search-form {
+    height: 30px;
+    width: 1068px;
+    margin: 0 auto;
+    margin-top: 51px;
+    
+}
+.main-search .main-search-form form ul li {
+    padding: 0 14px;
+    float: left;
+}
+.main-search .main-search-form form ul li input {
+    width: 236px;
+    height: 36px;
+}
+.main-search .main-search-form form ul li a {
+    display: inline-block;
+    background: #E74F4D;
+    width: 236px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #FFF;
+    text-decoration: none;
+}
+/* 结束-main-search部分 */
+/* 开始main-photo部分 */
+.main-photo {
+    width: 1280px;
+    height: 604px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #F7F7F7;
+}
+.main-photo .main-photo-mid {
+    width: 1042px;
+    height: 390px;
+    margin: 100px 146px;
+    
+}
+.main-photo .main-photo-mid ul li {
+    width: 220px;
+    height: 334px;
+    margin: 0 19px;
+    float: left;
+    border: 1px solid #DADADA;
+}
+.main-photo .main-photo-mid ul li img {
+    width: 202px;
+    height: 310px;
+    margin: 12px 10px;
+}
+.main-photo .main-photo-mid ul li h3 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+}
+.main-photo .main-photo-mid ul li p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    color: #979797;
+}
+/* 结束main-photo部分 */
+/* 开始main-newword部分 */
+.main-newword {
+    width: 1280px;
+    height: 565px;
+    margin: 0 auto;
+}
+.main-newword .main-newword-photo {
+    width: 850px;
+    height: 565px;
+    background:url("../image/main-photobg.jpg");
+    background-size: cover ;
+    float: left;
+}
+.main-newword .main-newword-photo h3 {
+    width: 148px;
+    font-size: 46px;
+    color: #FFF;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.main-newword .main-newword-photo h4 {
+    width: 370px;
+    font-size: 122px;
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 122px;
+}
+.main-newword .main-newword-photo p {
+    font-size: 22px;
+    color: #FFF;
+    text-align: center;
+    line-height: 45px;
+}
+.main-newword .main-newword-text {
+    width: 430px;
+    height: 565px;
+    float: right;   
+}
+.main-newword-text h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 164px;
+}
+.main-newword-text h3 span {
+    font-size: 20px;
+    color: #E74F4D;
+}
+.main-newword-text p {
+    width: 290px;
+    font-size: 12px;
+    color: #C4C4C4;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+.main-newword-text a {
+    display: block;
+    font-size: 12px;
+    width: 104px;
+    height: 31px;
+    border: 1px solid #E74F4D;
+    color: #E74F4D;
+    line-height: 31px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.main-newword-text .circle {
+    width: 75px;
+    height: 12px;
+    margin: 0 auto;
+}
+.main-newword-text .circle div {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #929293;
+    float: left;
+    border-radius: 50%;
+    margin: 0 7px;
+    margin-top: 24px;
+}
+.main-newword-text .circle div:hover {
+    background: #929293;
+}
+/* 结束-main-newword部分 */
+/* 开始-main-more部分 */
+.main-more {
+    width:1280px;
+    height: 521px;
+    margin: 0 auto;
+}
+.main-more .box {
+    width: 425px;
+    height: 521px;
+    float: left;
+}
+.main-more .box h3 {
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    line-height: 31PX;
+}
+.main-more .box:nth-child(2) h3 {
+    color: #000;
+}
+.main-more .box h3:first-child {
+    margin-top: 173PX;
+}
+.main-more .box .hr {
+    width: 30px;
+    border-bottom: 2px solid #FFF;
+    margin: 26px auto;
+}
+.main-more .box a {
+    display: block;
+    width: 167px;
+    height: 41px;
+    border: 1px solid #FFF;
+    text-align: center;
+    line-height: 41px;
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.main-more .box:nth-child(2) .hr {
+    border-bottom: 2px solid #000;
+}
+.main-more .box:nth-child(2) a {
+    border: 1px solid #E74F4D;
+    color: #E74F4D;
+}
+.main-more .box:first-child {
+    background: #E74F4D
+}
+.main-more .box:last-child {
+    width: 425px;
+    height: 521px;
+    background: url("../image/more-bg.jpg")-250px;
+    background-size: cover;
+}
+/* 结束-main-more部分 */
+/* 开始-main-form部分 */
+.main-form {
+    width: 1280px;
+    height: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main-form .main-form-text-top {
+    width: 426px;
+    height: 84px;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+.main-form .main-form-text-top h3 {
+    font-size: 20px;
+    text-align: center;
+}
+.main-form .main-form-text-top .hr {
+    width: 30px;
+    border-bottom: 2px solid #E74F4D;
+    margin: 10px auto;
+}
+.main-form .main-form-text-top p {
+    font-size: 12px;
+    text-align: center;
+    color: #AAA;
+}
+.main-form .main-form-mid {
+    width: 1004px;
+    height: 290px;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+.main-form  .main-form-mid .main-form-mid-left {
+    width: 292px;
+    float: left;
+} 
+.main-form  .main-form-mid .main-form-mid-left h3 {
+    font-size: 13px;
+    margin-bottom: 28px;
+}
+.main-form  .main-form-mid .main-form-mid-left .main-form-mid-left-b h3 {
+    margin-bottom: 0;
+}
+.main-form  .main-form-mid .main-form-mid-left p {
+    font-size: 11px;
+    color: #909090;
+}
+.main-form  .main-form-mid .main-form-mid-left a {
+    font-size: 11px;
+    color: #909090;
+    text-decoration: none;
+}
+.main-form  .main-form-mid .main-form-mid-left .icon {
+    margin-left: 249px;
+}
+.main-form  .main-form-mid .main-form-mid-left .main-form-mid-left-m {
+    margin-top: 38px;
+}
+.main-form  .main-form-mid .main-form-mid-left .main-form-mid-left-b {
+    margin-top: 18px;
+}
+
+.main-form  .main-form-mid .main-form-mid-right {
+    width: 661px;
+    float: right;
+} 
+.main-form  .main-form-mid .main-form-mid-right input[type="text"] {
+    width: 310px;
+    height: 40px;
+    margin: 0 0 14px 18px;
+    border: 0;
+    background: #EDECEE;
+}
+.main-form  .main-form-mid .main-form-mid-right textarea {
+    width: 643px;
+    height: 119px;
+    margin: 0 0 14px 18px;
+    border: 0;
+    background: #EDECEE;
+}
+.main-form  .main-form-mid .main-form-mid-right input[type="submit"] {
+    width: 643px;
+    height: 40px;
+    margin-left: 18px;
+    border: 0;
+    background: #EDECEE;
+}
+/* 结束-main-form部分 */
+/* 结束-main-about部分 */
+/* 开始-footer-contact部分 */
+.footer .footer-contact {
+    width: 1280px;
+    height: 360px;
+    margin: 0 auto;
+    background: #32363E;
+    overflow: hidden;
+}
+.footer .footer-contact h3 {
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 94px;
+}
+.footer .footer-contact p {
+    width: 470px;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.footer .footer-contact .email input {
+    width: 429px;
+    height: 39px;
+    border: 1px solid #A5A7AA;
+    float: left;
+}
+.footer .footer-contact .email a {
+    display: inline-block;
+    width: 80px;
+    height: 39px;
+    font-size: 16px;
+    border: 1px solid #A5A7AA;
+    color: #FFF;
+    text-decoration: none;
+    background: #707278;
+    text-align: center;
+    line-height: 39px;
+}
+.footer .footer-contact .email {
+    width: 518px;
+    height: 41px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer .footer-contact ul {
+    width: 230px;
+    margin: 30px auto;
+}
+.footer .footer-contact ul li {
+    float: left;
+    padding: 0 14px;
+}
+/* 结束-footer-contact部分 */
+/* 开始-footrt-footrt部分 */
+.footer-footer {
+    width: 1280px;
+    height: 58px;
+    margin: 0 auto;
+    background:  #303039;
+}
+.footer-footer .newworld {
+    color: #FFF;
+    font-size: 12px;
+    float: left;
+    padding: 28px 0 0 98px;
+}
+.footer-footer .back {
+    color: #FFF;
+    font-size: 12px;
+    float: right;
+    padding: 28px 98px 0 0;
+    text-decoration: none;
+}
+/* 开始-footrt-footrt部分 */
